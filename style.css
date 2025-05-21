@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top, #adb5bd, #212529);
+    height: 100vh;
+}
+
+.testimonial {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+avatar, img {
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.quote {
+    font-size: 20px;
+    color: #333;
+    padding-top: 5px;
+}
+
+.author {
+    font-size: 18px;
+    color: #555;
+    padding: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
+.author:hover {
+    color: #78290f;
+    transform: scale(1.1);
+}
+
+.role {
+    font-size: 16px;
+    color: #78290f;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+}
